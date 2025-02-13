@@ -66,7 +66,7 @@ const HomePopularCourse: FC = () => {
     infinite: true,
     autoplay: true,
     speed: 300,
-    slidesToShow: matchMobileView ? 1 : 5,
+    slidesToShow: matchMobileView ? 3 : 5,
     slidesToScroll: 1,
     prevArrow: <SliderArrow type="prev" />,
     nextArrow: <SliderArrow type="next" />,
