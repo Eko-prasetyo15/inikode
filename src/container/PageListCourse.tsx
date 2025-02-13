@@ -17,7 +17,7 @@ import TextField from '@mui/material/TextField'
 import Select, { SelectChangeEvent } from '@mui/material/Select'
 import { StyledButton } from '@/components/styled-button'
 import { data } from '@/components/home/popular-course.data'
-const ListCar = () => {
+const CourseList = () => {
   const [personName, setPersonName] = React.useState<string[]>([])
   const names = [
     'Oliver Hansen',
@@ -177,4 +177,4 @@ const ListCar = () => {
   )
 }
 
-export default ListCar
+export default CourseList

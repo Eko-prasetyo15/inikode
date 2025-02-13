@@ -11,7 +11,7 @@ const DynamicHomeTestimonial = dynamic(() => import('../../components/home/testi
 const DynamicHomeOurMentors = dynamic(() => import('../../components/home/mentors'))
 const DynamicHomeNewsLetter = dynamic(() => import('../../components/home/newsletter'))
 const DynamicHomeAgen = dynamic(() => import('../../components/home/agenfeat'))
-const DynamicHomeMokas = dynamic(() => import('../../components/home/mobilbekas'))
+const DynamicHomeMokas = dynamic(() => import('../../components/home/kursus'))
 
 const Home: NextPageWithLayout = () => {
   return (

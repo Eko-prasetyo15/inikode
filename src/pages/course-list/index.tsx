@@ -1,10 +1,10 @@
 // import { Layout } from '@/components/layout'
-import ListCar from '@/container/PageListCar'
+import ListCourse from '@/container/PageListCourse'
 import React from 'react'
 import { NextPageWithLayout } from '@/interfaces/layout'
-const CarList: NextPageWithLayout = () => {
-    return <ListCar />
+const CourseList: NextPageWithLayout = () => {
+  return <ListCourse />
 }
 
 // CarList.getLayout = (page: any) => <Layout>{page}</Layout>
-export default CarList
+export default CourseList

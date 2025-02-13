@@ -1,10 +1,10 @@
 // import { Layout } from '@/components/layout'
-import ListCar from '@/container/PageListCar'
+import ListCar from '@/container/PageListCourse'
 import SignUp from '@/components/signup'
 import React from 'react'
 import { NextPageWithLayout } from '@/interfaces/layout'
 const PageSignUp: NextPageWithLayout = () => {
-    return <SignUp />
+  return <SignUp />
 }
 
 // CarList.getLayout = (page: any) => <Layout>{page}</Layout>

@@ -114,7 +114,7 @@ const HomeMokas: FC = () => {
           </Grid>
 
           <Grid item xs={3} md={3}>
-            <Link href="/car-list" passHref>
+            <Link href="/course-list" passHref>
               <Button
                 size="small"
                 sx={{
