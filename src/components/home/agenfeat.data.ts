@@ -19,7 +19,7 @@ export const data: Array<Agen> = [
     name: 'Ini Agen/Marketer',
     category: 'Machine Learning',
     description:
-      'Ini Agen/Marketer adalah peluang bagi Anda untuk menjadi agen marketing di IniKode Bootcamp dan mendapatkan penghasilan tambahan. Sebagai agen, Anda akan memasarkan kursus IniKode Bootcamp yang berfokus pada pembelajaran Machine Learning..',
+      'Ini Agen/Marketer adalah peluang bagi Anda untuk menjadi agen marketing di IniKode Bootcamp dan mendapatkan penghasilan tambahan. Sebagai agen, Anda akan memasarkan kursus IniKode Bootcamp yang berfokus pada pembelajaran Pemrograman, Jika Anda memiliki kemampuan untuk memasarkan dan ingin terlibat dalam dunia pendidikan teknologi, Ini Agen/Marketer adalah kesempatan untuk berkontribusi sekaligus menghasilkan penghasilan tambahan.',
     company: {
       name: 'Google',
       logo: '/images/companies/google.png',
