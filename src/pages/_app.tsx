@@ -32,7 +32,7 @@ type AppPropsWithLayout = AppProps & {
   pageProps: any
 }
 
-const App = ({ Component, pageProps, emotionCache = clientSideEmotionCache, }: AppPropsWithLayout) => {
+const App = ({ Component, pageProps, emotionCache = clientSideEmotionCache }: AppPropsWithLayout) => {
   // const { Component, emotionCache = clientSideEmotionCache, pageProps } = props
 
   // Use the layout defined at the page level, if available
@@ -42,7 +42,7 @@ const App = ({ Component, pageProps, emotionCache = clientSideEmotionCache, }: A
     <CacheProvider value={emotionCache}>
       <Head>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
-        <title>Ruang Hijrah</title>
+        <title>IniKode</title>
       </Head>
       <MUIProvider>
         {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}

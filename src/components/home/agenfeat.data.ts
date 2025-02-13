@@ -7,7 +7,7 @@ export const data: Array<Agen> = [
     name: 'Ini Kursus',
     category: 'UI/UX Design',
     description:
-      'Mitra usaha Dealer mobil bekas/baru di Ruang Hijrah yang tentu nya kredibel dan terpercaya dengan methode cash ataupun kredit syariah.',
+      'Ini Kursus adalah bootcamp pemrograman intensif yang dirancang untuk membantu Anda menguasai keterampilan pengembangan perangkat lunak dan teknologi terkini, Anda akan mendapatkan pengetahuan mendalam tentang berbagai bahasa pemrograman seperti JavaScript, Golang, HTML/CSS, dan teknologi lainnya yang banyak digunakan di industri',
     company: {
       name: 'Grab',
       logo: '/images/companies/grab.png',
@@ -19,7 +19,7 @@ export const data: Array<Agen> = [
     name: 'Ini Agen/Marketer',
     category: 'Machine Learning',
     description:
-      'Dapatkan penghasilan tambahan dengan menjadi agen/marketer di Ruang Hijrah Seburuk buruk nya agen di Ruang Hijrah adalah dakwah..',
+      'Ini Agen/Marketer adalah peluang bagi Anda untuk menjadi agen marketing di IniKode Bootcamp dan mendapatkan penghasilan tambahan. Sebagai agen, Anda akan memasarkan kursus IniKode Bootcamp yang berfokus pada pembelajaran Machine Learning..',
     company: {
       name: 'Google',
       logo: '/images/companies/google.png',
@@ -31,7 +31,7 @@ export const data: Array<Agen> = [
     name: 'Ini Karir',
     category: 'Android Development',
     description:
-      'Pembiayaan berbagai kebutuhan yang didukung dengan proses transaksi digital yang cepat yang tentunya Halal, Berkah dan tanpa Riba..',
+      'Ini Karir adalah program yang dirancang untuk menyalurkan karir kepada para peserta yang telah menyelesaikan pelatihan di IniKode Bootcamp, khususnya dalam bidang Pemrograman. Program ini bertujuan untuk membantu peserta menemukan peluang kerja di perusahaan-perusahaan terkemuka yang memungkinkan Anda bekerja untuk berbagai proyek yang menarik.',
     company: {
       name: 'Airbnb',
       logo: '/images/companies/airbnb.png',

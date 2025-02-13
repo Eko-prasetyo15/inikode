@@ -18,7 +18,8 @@ export const data: Data[] = [
   // },
   {
     title: 'Komisi Registration',
-    description: 'Dapatkan komisi yang kompetitif untuk setiap transaksi dan Unit di Ruang Hijrah ',
+    description:
+      'Dapatkan komisi yang kompetitif untuk setiap mengundag talent/member bootcamp sampai dengan checkout transaksi di inikode ',
     icon: <AttachMoneyIcon />,
   },
   {
