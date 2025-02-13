@@ -17,7 +17,7 @@ export const data: Data[] = [
   //   icon: <ArtTrackIcon />,
   // },
   {
-    title: 'Komisi Unit',
+    title: 'Komisi Registration',
     description: 'Dapatkan komisi yang kompetitif untuk setiap transaksi dan Unit di Ruang Hijrah ',
     icon: <AttachMoneyIcon />,
   },
