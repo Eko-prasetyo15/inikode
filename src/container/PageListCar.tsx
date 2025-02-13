@@ -161,6 +161,7 @@ const ListCar = () => {
                       <Button
                         size="small"
                         href="https://wa.me/+6281395294204?text=Halo%20Agen%2C%20saya%20ingin%20bertanya"
+                        target="_blank"
                       >
                         Hubungi Marketing/Agen
                       </Button>
