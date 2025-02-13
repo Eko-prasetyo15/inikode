@@ -154,7 +154,7 @@ const HomeMokas: FC = () => {
                     {/* <Button size="small">Share</Button> */}
                     <Button
                       size="small"
-                      href="https://wa.me/081395294204?text=Halo%20Agen%2C%20saya%20ingin%20bertanya"
+                      href="https://wa.me/+6281395294204?text=Halo%20Agen%2C%20saya%20ingin%20bertanya"
                     >
                       Hubungi Marketing/Agen
                     </Button>
