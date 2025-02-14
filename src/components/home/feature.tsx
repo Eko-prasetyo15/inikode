@@ -8,6 +8,8 @@ import Typography from '@mui/material/Typography'
 import CircularProgress from '@mui/material/CircularProgress'
 import LinearProgress, { linearProgressClasses } from '@mui/material/LinearProgress'
 import { data } from './feature.data'
+import Link from 'next/link'
+import { StyledButton } from '../styled-button'
 
 interface LinearProgressProps {
   order: number
@@ -103,9 +105,9 @@ const HomeFeature: FC = () => {
                     flexDirection: 'column',
                   }}
                 >
-                  <Typography sx={{ fontWeight: 600, lineHeight: 1 }}>Lorem ipsum</Typography>
+                  <Typography sx={{ fontWeight: 600, lineHeight: 1 }}>Komisi Member</Typography>
                   <Typography variant="subtitle1" sx={{ mb: 1, color: 'text.disabled' }}>
-                    Lorem ipsum
+                    /User
                   </Typography>
                   <Box
                     sx={{
@@ -118,20 +120,20 @@ const HomeFeature: FC = () => {
                     }}
                   >
                     <Typography variant="h4" sx={{ color: '#32dc88' }}>
-                      75%
+                      5%
                     </Typography>
                     <CircularProgress
                       sx={{ position: 'absolute', color: 'divider' }}
                       thickness={2}
                       variant="determinate"
-                      value={85}
+                      value={100}
                       size={85}
                     />
                     <CircularProgress
                       disableShrink
                       thickness={2}
                       variant="determinate"
-                      value={75}
+                      value={5}
                       size={85}
                       sx={{ transform: 'rotate(96deg) !important', color: '#32dc88', position: 'absolute' }}
                     />
@@ -220,6 +222,25 @@ const HomeFeature: FC = () => {
                 </Grid>
               ))}
             </Grid>
+            <Container style={{ marginTop: '30px', justifyContent: 'end' }}>
+              <Grid container>
+                <StyledButton
+                  disableHoverEffect={true}
+                  color="primary"
+                  size="large"
+                  variant="contained"
+                  onClick={() => {
+                    const phoneNumber = '+6281395294204' // Ganti dengan nomor WA yang sesuai
+                    const message = encodeURIComponent(
+                      'Halo, saya tertarik untuk menjadi agen Inikode Bootcamp. Bisa berikan informasi lebih lanjut?'
+                    )
+                    window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank')
+                  }}
+                >
+                  Daftar Agen
+                </StyledButton>
+              </Grid>
+            </Container>
           </Grid>
         </Grid>
       </Container>

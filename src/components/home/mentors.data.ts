@@ -3,11 +3,11 @@ import type { Mentor } from '@/interfaces/mentor'
 export const data: Array<Mentor> = [
   {
     id: 1,
-    photo: '/images/mentors/christian-buehner-DItYlc26zVI-unsplash.jpg',
-    name: 'Jhon Dwirian',
-    category: 'UI/UX Design',
+    photo: '/images/mentors/jefri.jpg',
+    name: 'Jefri Widiyanto',
+    category: 'Backend Engineer',
     description:
-      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      'Jefri Widiyanto adalah Senior Backend Developer dengan lebih dari 7 tahun pengalaman dan berkontribusi sebagai Backend Engineer di beberapa perusahaan multinational, di mana ia mengembangkan dan mengoptimalkan sistem backend berskala besar yang menangani jutaan pengguna setiap hari.',
     company: {
       name: 'Grab',
       logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/900px-JavaScript-logo.png',
@@ -15,49 +15,49 @@ export const data: Array<Mentor> = [
   },
   {
     id: 2,
-    photo: '/images/mentors/jonas-kakaroto-KIPqvvTOC1s-unsplash.jpg',
-    name: 'Leon S Kennedy',
-    category: 'Machine Learning',
+    photo: '/images/mentors/dhani.png',
+    name: 'Dhani Dwi Putra',
+    category: 'Fullstack Engineer',
     description:
-      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      'Dhani Dwi Putra adalah seorang Fullstack Engineer dengan pengalaman luas dalam pengembangan aplikasi berbasis web dan mobile. ex Tokopedia, salah satu perusahaan e-commerce terbesar di Indonesia, di mana ia berkontribusi dalam membangun sistem yang skalabel, cepat, dan efisien.',
     company: {
-      name: 'Google',
+      name: 'Tokopedia',
       logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/768px-React-icon.svg.png',
     },
   },
   {
     id: 3,
-    photo: '/images/mentors/noah-buscher-8A7fD6Y5VF8-unsplash.jpg',
-    name: 'Nguyễn Thuy',
-    category: 'Android Development',
+    photo: '/images/mentors/zanu.png',
+    name: 'Zanuarrahmanu Baihaqi',
+    category: 'Backend Engineer',
     description:
-      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      'Zanuarrahmanu Baihaqi adalah seorang Backend Engineer berpengalaman yang saat ini bekerja di Nabati. Dengan keahlian dalam pengembangan sistem backend yang efisien dan scalable, ia telah menangani berbagai proyek teknologi yang mendukung operasional bisnis dalam skala besar..',
     company: {
-      name: 'Airbnb',
+      name: 'nabati',
       logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/885px-Node.js_logo.svg.png',
     },
   },
   {
     id: 4,
-    photo: '/images/mentors/philip-martin-5aGUyCW_PJw-unsplash.jpg',
-    name: 'Rizki Known',
-    category: 'Fullstack Development',
+    photo: '/images/mentors/aji.png',
+    name: 'Aji Muhammad Zafar',
+    category: 'Fullstack Engineer',
     description:
-      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      'Aji Muhammad Zafar adalah seorang Fullstack Engineer dengan keahlian luas dalam berbagai bahasa pemrograman dan teknologi pengembangan aplikasi. Saat ini, ia bekerja di Nabati, di mana ia berperan dalam membangun solusi perangkat lunak yang efisien, cepat, dan scalable untuk mendukung kebutuhan bisnis',
     company: {
-      name: 'Microsoft',
+      name: 'Nabati',
       logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/768px-Go_Logo_Blue.svg.png',
     },
   },
   {
     id: 5,
-    photo: '/images/mentors/christian-buehner-DItYlc26zVI-unsplash.jpg',
-    name: 'Jhon Dwirian',
-    category: 'UI/UX Design',
+    photo: '/images/mentors/pas.jpg',
+    name: 'Eko Prasetyo Permadi',
+    category: 'Frontend Engineer',
     description:
-      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      'Eko Prasetyo Permadi adalah Frontend Engineer yang telah bekerja di berbagai perusahaan teknologi, termasuk Ekrut dan Nabati. Dengan pengalaman yang luas dalam membangun antarmuka pengguna yang interaktif dan responsif, Eko berfokus pada peningkatan pengalaman pengguna (UX) dan performa aplikasi web modern.',
     company: {
-      name: 'Grab',
+      name: 'Ekrut, Nabati',
       logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/810px-Postgresql_elephant.svg.png',
     },
   },
@@ -83,54 +83,6 @@ export const data: Array<Mentor> = [
     company: {
       name: 'Google',
       logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/768px-HTML5_logo_and_wordmark.svg.png',
-    },
-  },
-  {
-    id: 8,
-    photo: '/images/mentors/jonas-kakaroto-KIPqvvTOC1s-unsplash.jpg',
-    name: 'Leon S Kennedy',
-    category: 'Machine Learning',
-    description:
-      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    company: {
-      name: 'Google',
-      logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/544px-CSS3_logo_and_wordmark.svg.png',
-    },
-  },
-  {
-    id: 8,
-    photo: '/images/mentors/jonas-kakaroto-KIPqvvTOC1s-unsplash.jpg',
-    name: 'Leon S Kennedy',
-    category: 'Machine Learning',
-    description:
-      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    company: {
-      name: 'Google',
-      logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/SQLite370.svg/573px-SQLite370.svg.png',
-    },
-  },
-  {
-    id: 8,
-    photo: '/images/mentors/jonas-kakaroto-KIPqvvTOC1s-unsplash.jpg',
-    name: 'Leon S Kennedy',
-    category: 'Machine Learning',
-    description:
-      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    company: {
-      name: 'Google',
-      logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/MongoDB_Logo.svg/2560px-MongoDB_Logo.svg.png',
-    },
-  },
-  {
-    id: 9,
-    photo: '/images/mentors/jonas-kakaroto-KIPqvvTOC1s-unsplash.jpg',
-    name: 'Leon S Kennedy',
-    category: 'Machine Learning',
-    description:
-      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    company: {
-      name: 'Google',
-      logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Redux_Logo.png/1920px-Redux_Logo.png',
     },
   },
 ]

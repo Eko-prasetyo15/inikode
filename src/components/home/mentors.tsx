@@ -69,7 +69,7 @@ const HomeOurMentors: FC = () => {
     slidesToScroll: 1,
     prevArrow: <SliderArrow type="prev" />,
     nextArrow: <SliderArrow type="next" />,
-    dots: true,
+    dots: false,
     appendDots: (dots) => <StyledDots>{dots}</StyledDots>,
     customPaging: () => (
       <Box sx={{ height: 8, width: 30, backgroundColor: 'divider', display: 'inline-block', borderRadius: 4 }} />

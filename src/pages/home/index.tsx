@@ -12,13 +12,14 @@ const DynamicHomeOurMentors = dynamic(() => import('../../components/home/mentor
 const DynamicHomeNewsLetter = dynamic(() => import('../../components/home/newsletter'))
 const DynamicHomeAgen = dynamic(() => import('../../components/home/agenfeat'))
 const DynamicHomeMokas = dynamic(() => import('../../components/home/kursus'))
-
+const DetailCourse = dynamic(() => import('../../components/home/detailCourse'))
 const Home: NextPageWithLayout = () => {
   return (
     <>
       <DynamicHomeHero />
       <DynamicHomeAgen />
       <DynamicHomeFeature />
+      <DetailCourse />
       <DynamicHomeMokas />
       {/* <DynamicHomePopularCourse /> */}
       <DynamicHomeTestimonial />
