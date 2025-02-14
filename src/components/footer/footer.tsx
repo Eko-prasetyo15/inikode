@@ -34,6 +34,24 @@ const Footer: FC = () => {
             <FooterNavigation />
           </Grid>
         </Grid>
+        <Grid
+          item
+          xs={12}
+          md={7}
+          // style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}
+        >
+          <Typography variant="subtitle1" sx={{ letterSpacing: 1, mb: 1, width: '100%' }}>
+            © Copyright by @zayyid 2025-2026
+          </Typography>
+          <Box sx={{ display: 'flex', alignItems: 'center' }}>
+            ✉️
+            <Typography variant="body2" sx={{ textAlign: 'center' }}>
+              <a href="mailto:zayyid@example.com" style={{ textDecoration: 'none', color: 'inherit' }}>
+                support-care@zayyid.com
+              </a>
+            </Typography>
+          </Box>
+        </Grid>
       </Container>
     </Box>
   )
