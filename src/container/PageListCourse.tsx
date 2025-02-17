@@ -160,7 +160,7 @@ const CourseList = () => {
                       {/* <Button size="small">Share</Button> */}
                       <Button
                         size="small"
-                        href="https://wa.me/+6281395294204?text=Halo%20Agen%2C%20saya%20ingin%20bertanya"
+                        href="https://wa.me/+6281395294204?text=Halo%20saya%20ingin%20mengetahui%20info%20produk%20ini%20lebih%20lanjut%20dari%20[agen]%0A%0ANama%20%3A%20[Nama%20Anda]%0AAlamat%20%3A%20[Alamat%20Anda]%0ANo%20Telp%20%3A%20[Nomor%20Telepon%20Anda]"
                         target="_blank"
                       >
                         Hubungi Marketing/Agen
